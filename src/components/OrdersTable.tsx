@@ -67,7 +67,7 @@ const OrdersTable = ({
 
                                 <td className="p-4 align-top">
                                     <div className="flex flex-col gap-1">
-                                        <span className="text-sm text-gray-700">₹{order.price}</span>
+                                        <span className="text-sm text-gray-700">{"\u20B9"}{order.price}</span>
                                         <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-sm font-bold uppercase w-fit
                                                 ${order.paymentMethod === 'COD' ? 'bg-blue-50 text-blue-700' : 'bg-green-50 text-green-700'}
                                             `}>

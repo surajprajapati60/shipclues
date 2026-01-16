@@ -30,7 +30,7 @@ const LeftNavigation = () => {
                 <div className="p-4 mb-4">
                     <img src={logo} alt="logo" />
                 </div>
-                <ul className="flex flex-col gap-4 p-3 items-center h-full">
+                <ul className="flex flex-col gap-2 p-3 items-center h-full overflow-y-auto">
                     {NAVIGATION.map((item) => (
 
                         <NavLink key={item.id} to={item.path} className={(item) => getClassName(item.isActive)}>

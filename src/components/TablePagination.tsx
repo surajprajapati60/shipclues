@@ -20,7 +20,7 @@ const TablePagination = ({
 }: TablePaginationProps) => {
 
     return (
-        <div className="px-6 py-4 border-t border-gray-100 flex items-center justify-center gap-8">
+        <div className="px-6 py-4 border-t border-gray-100 flex items-center justify-center gap-8 md:flex-row flex-col">
             <div className="flex items-center gap-2">
                 <span className="text-sm text-blue-800 font-medium">Rows per page</span>
                 <select
