@@ -1,9 +1,11 @@
-function App() {
+import { BrowserRouter } from "react-router"
+import AppRoutes from "./router/AppRoutes"
 
+function App() {
   return (
-    <div>
-      <h1>Shipclues</h1>
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   )
 }
 
